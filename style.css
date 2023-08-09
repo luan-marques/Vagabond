@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inknut Antiqua', serif;   
+    background-color: #f0f0f0;
+}
+
+header {
+    height: 60vh;
+    background-image: url(./img/1308512.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    box-shadow: 0 15px 35px black;
+}
+
+header div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.638);
+}
+
+header h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+main {
+    max-width: 1100px;
+    background-color: #ffffff00;
+    margin: 3rem auto;
+    padding: 2rem 4rem;
+}
+
+.initial {
+    text-align: center;
+}
+
+.initial div p {
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.initial figure img {
+    border-radius: 0.25rem;
+}
+
+.biography {
+    padding: 3rem 0;
+    margin: 5rem 0;
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.biography h2 {
+    padding-bottom: 1rem;
+}
+
+.biography p {
+    line-height: 2;
+}
+
+.quotes {
+    background-color: #ddd;
+    padding: 2rem 3rem;
+    margin: 4rem;
+    border-radius: 0.25rem;
+}
+
+.quotes blockquote {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.quotes p {
+    font-style: italic;
+}
+
+.info {
+    padding: 3rem 0;
+    margin: 5rem 0;
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+}
+
+.info h2 {
+    padding-bottom: 1rem;
+}
+
+.info p  {
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.quotes-two {
+    height: 55vh;
+    background-color: #ddd;
+    display: flex;
+    border-radius: 0.25rem;
+    padding-bottom: none;
+}
+
+.img-edition img {
+    height: 100%;
+    border-radius: 0 0.25rem 0.25rem 0 ;
+}
+
+.quotes-two blockquote {
+    padding: 3rem 4rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    text-align:left;
+}
+
+.quotes-two p {
+    font-style: italic;
+    padding: 0 4rem;
+}
+
+footer {
+    height: 30vh;
+    background-image: url(./img/1308512.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 15px 0 35px black;
+}
+
+footer div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.638);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+footer button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+footer button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;  
+}
+
+footer button:hover {
+    transform: scale(1.1);
+    transition: all 0.25s;
+}
+
