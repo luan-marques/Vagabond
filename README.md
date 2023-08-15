@@ -2,6 +2,7 @@
 
 - Site simples com design minimalista que conta um pouco da hisória do mangá Vagabond, baseada no livro Musashi, de Eiji Yoshikawa
 - Apenas HTML e CSS foram utilizados no desenvolvimento, sem responsividade
+- Deploy: https://vagabond-manga.vercel.app
 
  ![musa1](https://github.com/luan-marques/Vagabond/assets/116835778/dcc11780-0846-4710-8a53-ada3279f49c1)
  ![musa2](https://github.com/luan-marques/Vagabond/assets/116835778/2e55d8d8-be26-45de-92a3-a187add8d070)
